@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css-application</title>
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        .internal-css {
+            color:#038C7F;
+            background-color:#04BFAD;
+        }
+    </style>
+
 </head>
 <body>
     <header>
@@ -18,7 +27,23 @@
         </nav>
         <h1>css-application</h1>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section>
+            <h2>External CSS</h2>
+            <!--Method 1 External CSS Part 2-->
+            <p class="external-css">test test</p>
+        </section>
+        <section>
+            <h2>Internal CSS</h2>
+            <!--Method 1:internal CSS Part 2-->
+            <p class="internal-css">test test</p>
+        </section>
+        <section>
+            <h2>Inline CSS</h2>
+            <!--Method 3: inline CSS-->
+            <p style="color: #04BFAD;">test test</p>
+        </section>
+    </main>
+    <footer>&copy; copyright 2023 Oscar Mendez <a href="htpps:www.github.com/Faithfuloscar">github</a></footer>
 </body>
 </html>
